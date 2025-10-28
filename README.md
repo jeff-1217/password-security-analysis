@@ -12,63 +12,59 @@ The full analysis is available in the detailed PDF report:
 
 This comprehensive report provides in-depth insights into password security analysis, including methodology, findings, and recommendations.
 
-## Key Sections Covered in the Report
+# 🔐 Password Strength Checker Project
 
-The Password Strength Report includes the following main sections:
-
-- **Introduction**: Overview of password security challenges and the scope of the analysis
-- **Password Strength Metrics**: Detailed examination of methods for evaluating password strength
-- **Analysis Results**: Findings from the password security analysis, including common patterns and vulnerabilities
-- **Recommendations**: Best practices and actionable steps for improving password security
-- **Conclusion**: Summary of key takeaways and future considerations
-
-## Quick Summary: Key Findings & Recommendations
-
-### Important Findings
-
-- **Length Matters**: Password length is one of the most critical factors in password strength; longer passwords exponentially increase security
-- **Complexity is Essential**: Combining uppercase, lowercase, numbers, and special characters significantly improves resistance to attacks
-- **Dictionary Words are Vulnerable**: Passwords based on dictionary words, even with simple substitutions, are easily cracked
-- **Common Patterns are Weak**: Predictable patterns (e.g., "Password123!", "qwerty", sequential numbers) are among the first targets in attacks
-- **Reuse is Risky**: Using the same password across multiple accounts amplifies the impact of a single breach
-
-### Key Recommendations
-
-- ✅ **Use passwords at least 12-16 characters long** for optimal security
-- ✅ **Implement multi-factor authentication (MFA)** wherever available as an additional security layer
-- ✅ **Use password managers** to generate and store strong, unique passwords for each account
-- ✅ **Avoid personal information** (names, birthdates, etc.) that can be easily guessed or found online
-- ✅ **Enable password complexity requirements** in organizational policies
-- ✅ **Regularly update passwords** for sensitive accounts, especially after potential breaches
-- ✅ **Educate users** about password security through training and awareness programs
-
-## Who Should Read This Report
-
-This analysis is valuable for:
-
-- **Individuals** looking to improve their personal password security practices
-- **Organizations** seeking to strengthen their authentication policies and user security
-- **Cybersecurity Students** learning about password security fundamentals and analysis techniques
-- **IT Professionals** implementing or auditing password security measures
-- **Security Researchers** interested in password security trends and vulnerabilities
-
-## Contributing
-
-Contributions to improve this analysis are welcome! If you have suggestions, additional research, or improvements:
-
-1. Fork this repository
-2. Create a new branch for your changes
-3. Submit a pull request with a clear description of your contributions
-
-For bug reports or questions, please [open an issue](../../issues).
-
-## Contact & Questions
-
-Have questions or want to discuss password security?
-
-- **Issues**: Open an issue in this repository for questions or discussions
-- **Pull Requests**: Submit improvements or corrections via pull requests
+### 📘 Overview
+This project was created as part of **Cybersecurity Internship Task 6 – Password Strength Evaluation**.  
+The goal is to understand what makes a password strong, test password complexity, and learn best practices for password security.
 
 ---
 
-**Note**: This analysis is for educational and informational purposes. Always follow your organization's security policies and consult with cybersecurity professionals for specific security implementations.
+### 🧠 Objective
+- Evaluate password strength using **online tools** (e.g., passwordmeter.com)
+- Create and test **passwords with varying complexity**
+- Understand **common password attacks** (Brute Force, Dictionary)
+- Develop your own **password strength checker** for practical understanding
+
+---
+
+### 💻 My Own Password Strength Checker Website
+I developed a **custom password strength checker** using **HTML**.  
+It analyzes password complexity in real-time based on:
+- Length
+- Character variety (uppercase, lowercase, digits, symbols)
+- Common password patterns
+
+🔗 **Live Demo:** [https://password-strength-checker-alpha.vercel.app](https://password-strength-checker-alpha.vercel.app)
+
+---
+
+### 📊 Password Evaluation Results (Summary)
+| Password | Strength Score | Feedback |
+|-----------|----------------|-----------|
+| jefrin123 | 25% | Weak – too short, lacks symbols & uppercase |
+| Jefrin@123 | 50% | Medium – better mix, but short |
+| J3fr!n_C0rr3ya | 75% | Strong – good complexity |
+| J3fr!n_C0rr3ya2025# | 90% | Very strong – complex and long |
+| Cyber$ecure_P@ssword2025 | 100% | Excellent – strong, long, and unique |
+
+---
+
+### 🛡️ Common Password Attacks
+- **Brute Force Attack:** Tries every possible combination  
+- **Dictionary Attack:** Uses common passwords or word lists  
+- **Phishing Attack:** Tricks users into revealing credentials  
+- **Credential Stuffing:** Reuses stolen passwords across sites  
+
+---
+
+### ✅ Best Practices for Strong Passwords
+- Use at least **12–16 characters**  
+- Include **uppercase, lowercase, numbers, and symbols**  
+- Avoid personal info or dictionary words  
+- Use **unique passwords** per account  
+- Enable **Multi-Factor Authentication (MFA)**  
+- Use a **trusted password manager**
+
+---
+
