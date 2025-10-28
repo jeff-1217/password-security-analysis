@@ -12,12 +12,6 @@ The full analysis is available in the detailed PDF report:
 
 This comprehensive report provides in-depth insights into password security analysis, including methodology, findings, and recommendations.
 
-# 🔐 Password Strength Checker Project
-
-### 📘 Overview
-This project was created as part of **Cybersecurity Internship Task 6 – Password Strength Evaluation**.  
-The goal is to understand what makes a password strong, test password complexity, and learn best practices for password security.
-
 ---
 
 ### 🧠 Objective
