@@ -45,7 +45,7 @@ It analyzes password complexity in real-time based on:
 
 ---
 
-### 🛡️ Common Password Attacks
+### Common Password Attacks
 - **Brute Force Attack:** Tries every possible combination  
 - **Dictionary Attack:** Uses common passwords or word lists  
 - **Phishing Attack:** Tricks users into revealing credentials  
