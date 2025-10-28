@@ -1,4 +1,5 @@
 # Password Security Analysis
+
 ---
 
 ## Project Overview
@@ -15,7 +16,7 @@ This comprehensive report provides in-depth insights into password security anal
 
 ---
 
-### 🧠 Objective
+###  Objective
 - Evaluate password strength using **online tools** (e.g., passwordmeter.com)
 - Create and test **passwords with varying complexity**
 - Understand **common password attacks** (Brute Force, Dictionary)
@@ -23,7 +24,7 @@ This comprehensive report provides in-depth insights into password security anal
 
 ---
 
-### 💻 My Own Password Strength Checker Website
+### My Own Password Strength Checker Website
 I developed a **custom password strength checker** using **HTML**.  
 It analyzes password complexity in real-time based on:
 - Length
@@ -34,7 +35,7 @@ It analyzes password complexity in real-time based on:
 
 ---
 
-### 📊 Password Evaluation Results (Summary)
+### Password Evaluation Results (Summary)
 | Password | Strength Score | Feedback |
 |-----------|----------------|-----------|
 | jefrin123 | 25% | Weak – too short, lacks symbols & uppercase |
@@ -53,7 +54,7 @@ It analyzes password complexity in real-time based on:
 
 ---
 
-### ✅ Best Practices for Strong Passwords
+###  Best Practices for Strong Passwords
 - Use at least **12–16 characters**  
 - Include **uppercase, lowercase, numbers, and symbols**  
 - Avoid personal info or dictionary words  
